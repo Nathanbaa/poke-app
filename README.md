@@ -57,7 +57,7 @@ cp .env.example .env
 docker-compose up --build
 ```
 
-L'application sera accessible à l'adresse : `http://localhost:3000`
+L'application sera accessible à l'adresse : `http://localhost:3001`
 
 ## 📁 Structure du Projet
 
