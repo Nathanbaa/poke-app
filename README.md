@@ -40,7 +40,7 @@ Une application web moderne pour explorer et découvrir les Pokémon, construite
 1. Clonez le repository :
 
 ```bash
-git clone [URL_DU_REPO]
+git clone https://github.com/Nathanbaa/poke-app.git
 cd poke-app
 ```
 
