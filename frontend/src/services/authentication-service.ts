@@ -1,14 +1,14 @@
 export default class AuthenticationService {
-
-  static isAuthenticated:boolean = false;
+  static isAuthenticated: boolean = true;
 
   static login(username: string, password: string): Promise<boolean> {
-    const isAuthenticated = (username === 'pikachu' && password === 'pikachu');
+    // const isAuthenticated = username === "pikachu" && password === "pikachu";
 
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       setTimeout(() => {
-        this.isAuthenticated = isAuthenticated;
-        resolve(isAuthenticated);
+        // this.isAuthenticated = isAuthenticated;
+        // resolve(isAuthenticated);
+        this.isAuthenticated = true;
       }, 1000);
     });
   }
