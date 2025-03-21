@@ -17,7 +17,6 @@ Une application web moderne pour explorer et découvrir les Pokémon, construite
 
 - React.js
 - TypeScript
-- Tailwind CSS
 
 ### Backend
 
