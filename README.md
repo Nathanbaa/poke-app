@@ -18,14 +18,12 @@ Une application web moderne pour explorer et découvrir les Pokémon, construite
 - React.js
 - TypeScript
 - Tailwind CSS
-- Vite
 
 ### Backend
 
 - Node.js
 - Express.js
 - MariaDB
-- Docker
 
 ## 🚀 Installation
 
@@ -54,10 +52,14 @@ cp .env.example .env
 3. Lancez l'application avec Docker Compose :
 
 ```bash
-docker-compose up --build
+docker-compose up
 ```
 
-L'application sera accessible à l'adresse : `http://localhost:3001`
+## 🔗 Liens du Projet
+
+Frontend: http://localhost:3001/login
+Backend: http://localhost:3000
+PhpMyAdmin: http://localhost:8080
 
 ## 📁 Structure du Projet
 
